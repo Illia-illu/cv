@@ -57,7 +57,7 @@ jobs:
         with:
           tag_name: v${{ steps.commit_info.outputs.date }}
           name: ${{ steps.commit_info.outputs.message }}
-          files: CV-Mykyta-Kasianenko.pdf
+          files: CV-Illia-Kasianenko.pdf
           body: |
             **CV PDF Build**
 
